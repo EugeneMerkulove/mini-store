@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'Bebas';
+	src: url('../fonts/bebas_neau/BebasNeueRegular.eot');
+	src: local('../fonts/bebas_neau/Bebas Neue Regular'), local('BebasNeueRegular'),
+		url('../fonts/bebas_neau/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bebas_neau/BebasNeueRegular.woff') format('woff'),
+		url('../fonts/bebas_neau/BebasNeueRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/open_sans/opensans-regular-webfont.eot');
+    src: url('../fonts/open_sans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open_sans/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/open_sans/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/open_sans/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/open_sans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: "LobsterRegular";
+	src: url("../fonts/LobsterRegular/LobsterRegular.eot");
+	src: url("../fonts/LobsterRegular/LobsterRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/LobsterRegular/LobsterRegular.woff") format("woff"),
+	url("../fonts/LobsterRegular/LobsterRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+ 
+  

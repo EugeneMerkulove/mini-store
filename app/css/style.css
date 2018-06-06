@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+}
+
+input {
+    height: 1.2em;
+}
+  
+input[type='search'] {
+    padding-right: 35px;
+    height: 30px;
+    width: 400px;
+}
+  
+input[type="image"] {
+    width:  25px;
+    height: 25px;
+    position: relative;
+    left: -35px;
+    vertical-align: middle;
+}
+  
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+.basket {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.basket div:first-child {
+    margin-right: 20px; 
+}
+.basket div span {
+    font-family: 'Bebas';
+    font-size: 33px;
+    color: #a1a1a1;
+}
+.header-top {
+    display:  flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    
+}
+.header-top p {
+    font-family: "LobsterRegular";
+    font-size: 49px;
+    color: #3cc3b5;
+}
+.header-top div form input {
+    outline: none;
+}
+.header-btn {
+    background: #3cc3b5;
+    padding: 5px 150px;
+}
+.header-btn ul { 
+    display: flex;
+    justify-content: space-around;
+    font-size: 21px;
+    font-family: 'Bebas';
+    color: white;
+}
+.header-btn ul li a {
+    text-decoration: none;
+    outline: none;
+    font-size: 21px;
+    font-family: 'Bebas';
+    color: white;
+}
+
+.slider-top-content {
+    display: flex;
+    justify-content: center;
+    background: #3cc3b5;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.slider-top-content  .images-top {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.slider-top-description {
+    margin-left: 100px;
+}
+
+.slider-top-description div:first-child p {
+    text-transform: uppercase;
+    font-family: 'Bebas';
+    font-size: 61px;
+    color: white;
+}
+.slider-top-description div:first-child {
+    margin-bottom: 25px;
+}
+.slider-top-description div:nth-child(2) p {
+    font-size: 17px;
+    color: white;
+    font-family: 'open_sansregular';
+    width: 50%;
+    line-height: 30px;
+}
+.slider-top-description div:nth-child(2) {
+    margin-bottom: 40px;
+}
+.slider-top-description div a {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Bebas';
+    font-size: 27px;
+    padding: 7px 25px;
+    border: 3px solid white;
+    border-radius: 15px; 
+    outline: none;
+    text-decoration: none;
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+}
+
+.slick-dots {
+    background: #3cc3b5;
+    position: initial;
+}
+.slick-slider .slick-dotted {
+    margin-bottom: 0;
+}
+.slick-dots {
+    padding-bottom: 30px;
+}
+.slick-dots li button:before {
+    font-size: 60px;
+    color: white;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: white;
+}
+.slick-dots li button:before {
+    opacity: 0.5;
+}
+
+.item-slider-btn {
+    display: flex;
+    justify-content: row;
+}
+
+.slider-btn-description {
+    display: flex;
+    flex-direction:  column;
+}
+
+.slider-btn-description div:first-child span {
+    font-family: 'Bebas';
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #afafaf;
+}
+.slider-btn-description div:first-child {
+    margin-top: 20px;
+}
+
+.slider-btn-description div:nth-child(2) a {
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    font-family: 'Bebas';
+    font-size: 19px;
+    color: white;
+    background: #3cc395;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+.slider-btn-description div:nth-child(2) {
+    margin-top: 20px;
+}
+
+.non-size div {
+    margin-right: 70px;
+}
+.inTxt  {
+    background: #3cc3b5;
+    padding: 15px 0;
+}
+.inTxt p {
+    text-transform: uppercase;
+    font-family: 'Bebas';
+    font-size: 31px;
+    color: white;
+    margin: 0 165px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 120px;
+}
+
+.product-container .product-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.product-container .product-line:first-child {
+    margin-bottom: 40px; 
+}
+.product-container .product-line .product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 40vh;
+    padding-top: 20px; 
+    border: 1px solid #e4e4e4;
+    border-bottom: 5px solid #3cc395;
+}
+.product-container .product-line .product-item div:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-container .product-line .product-item div span {
+    font-family: 'Bebas';
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #afafaf;
+}
+
+.product-container .product-line .product-item div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    font-family: 'Bebas';
+    font-size: 19px;
+    color: white;
+    background: #3cc395;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+
+.product-container .product-line .product-item div {
+    margin-bottom: 15px;
+}
+.product-container .product-line .product-item div:nth-child(3) div:first-child {
+    margin-right: 15px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #3cc3b5;
+    padding: 30px 90px;
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+.footer-item a:first-child {
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: none;
+    font-family: 'Bebas';
+    font-size: 27px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.footer-item a {
+    text-decoration: none;
+    outline: none;
+    font-family: 'open_sansregular';
+    font-size: 15px;
+    color: white;
+    margin-bottom: 15px;
+}
+.end {
+    display: flex;
+    justify-content: center;
+    background: #2da89b;
+    font-family: 'open_sansregular';
+    font-size: 15px;
+    color: white;
+    padding: 15px 0; 
+}
